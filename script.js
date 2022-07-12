@@ -135,7 +135,7 @@ function joseAparecer() {
 
 function joseSumir() {
 
-        jose.innerHTML = ` <h2> Moisés </h2> `
+        jose.innerHTML = ` <h2> José </h2> `
 }
 
 
@@ -173,31 +173,6 @@ function moisesSumir() {
         moises.innerHTML = ` <h2> Moisés </h2> `
 }
 
-function conteudojesus() {
-
-        jesus.innerHTML = ` Jesus <br><br> Quase todas as linhas cristãs acreditam que Jesus foi concebido pelo Espírito Santo,
-        nasceu de uma virgem, praticou milagres, fundou a Igreja, morreu crucificado como forma de expiação, ressuscitou dos mortos
-        e ascendeu ao Céu, do qual regressará.[21] A grande maioria dos cristãos adoram Jesus como a encarnação de Deus, o Filho,
-        a segunda das três pessoas na Santíssima Trindade. Alguns grupos cristãos rejeitam a Trindade, no todo ou em parte.
-        Em 3 anos de ministério profético - ensinando e pregando o Reino de Deus - Jesus realizou milagres e maravilhas por onde passou.
-        O primeiro milagre de Jesus foi num casamento. Segundo a passagem no Evangelho de João, Jesus transformou a água em vinho,
-        mas depois disso continuou a fazer muitas maravilhas e sinais. FONTE (BIBLIAON) `
-
-}
-
-
-function jesusAparecer() {
-
-        setTimeout(() => {
-                conteudojesus()
-        }, 1000);
-}
-
-function jesusSumir() {
-
-        jesus.innerHTML = ` <h2> Jesus </h2> `
-}
-
 
 
 function conteudojosue() {
@@ -228,7 +203,32 @@ function josueAparecer() {
 
 function josueSumir() {
 
-        josue.innerHTML = ` <h2> Pedro </h2> `
+        josue.innerHTML = ` <h2> Josué </h2> `
+}
+
+function conteudojesus() {
+
+        jesus.innerHTML = ` Jesus <br><br> Quase todas as linhas cristãs acreditam que Jesus foi concebido pelo Espírito Santo,
+        nasceu de uma virgem, praticou milagres, fundou a Igreja, morreu crucificado como forma de expiação, ressuscitou dos mortos
+        e ascendeu ao Céu, do qual regressará.[21] A grande maioria dos cristãos adoram Jesus como a encarnação de Deus, o Filho,
+        a segunda das três pessoas na Santíssima Trindade. Alguns grupos cristãos rejeitam a Trindade, no todo ou em parte.
+        Em 3 anos de ministério profético - ensinando e pregando o Reino de Deus - Jesus realizou milagres e maravilhas por onde passou.
+        O primeiro milagre de Jesus foi num casamento. Segundo a passagem no Evangelho de João, Jesus transformou a água em vinho,
+        mas depois disso continuou a fazer muitas maravilhas e sinais. FONTE (BIBLIAON) `
+
+}
+
+
+function jesusAparecer() {
+
+        setTimeout(() => {
+                conteudojesus()
+        }, 1000);
+}
+
+function jesusSumir() {
+
+        jesus.innerHTML = ` <h2> Jesus </h2> `
 }
 
 function conteudopedro() {
