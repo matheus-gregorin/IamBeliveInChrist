@@ -1,0 +1,1178 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 4rem;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgb(59, 116, 204);
+
+}
+
+
+.container {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Comfortaa', cursive;
+    margin: 5px;
+   
+}
+
+a:hover {
+
+    text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.596);
+    transform: scale(1.2);
+    color: gold;
+    
+}
+
+.IMGH {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.IMGH:hover {
+    transform: scale(1.4);
+}
+
+.BemVindoV{
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    z-index:1;
+    opacity: 0.4;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    height: 39rem;
+    overflow: hidden;
+    
+}
+
+.video {
+    width: 100%;
+    background-size: cover;
+    
+}
+
+
+.Banner1 {
+    z-index: 2;
+    width: 100%;
+    height: 39rem;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.Banner1 .container{
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.BemVindo {
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 22px;
+    z-index: 1;
+    
+}
+
+.BemVindo b{
+    font-family: 'Libre Baskerville', serif;
+    animation-name: mud;
+    animation-duration: 7s;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(4, 7, 187, 0.842); 
+    z-index: 1;
+      
+}
+
+@keyframes mud {
+    
+    from {
+
+        color: rgba(255, 255, 255, 0);
+
+    }
+
+    to {
+
+        color: rgba(4, 7, 187, 0.842);
+
+    }
+}
+
+.InfoBemVindo {
+    /* font-family: 'Satisfy', cursive; 2° fonte */
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: white;
+    z-index: 1;
+    
+}
+
+.BotaoBemVindo {
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Comfortaa', cursive;
+    width: 30%;
+    z-index: 1;
+    
+}
+
+.BtnBemVindo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 8px;
+    padding: 6px 7px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 5px 4px 0px 4px;
+    border: 0px;
+    z-index: 1;
+    
+}
+
+.BtnBemVindo:hover {
+    background: linear-gradient(to left,black, blue);
+    color: rgb(252, 252, 252);
+    transform: scale(1.1);   
+}
+
+.BannerNoticias {
+    background: linear-gradient(to bottom, white, rgb(0, 190, 248));
+    height: 100rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(img_icon/pexels-brotin-biswas-518543.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BannerNoticias .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 95rem;
+    width: 99%;
+}
+
+.TituloN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3rem;
+    width: 90%;
+    font-size: 40px;
+    color: blue;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+
+.ConteudoN {
+    height: 89rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    word-wrap: normal;
+}
+
+.ConteudoN div {
+    height: 15rem;
+    width: 30%;
+    margin: 0px 10px;
+    background-color: black;
+    box-shadow: 2px 2px 5px black;
+    border: 1px solid white;
+}
+
+#div1 {
+    background-image: url(noticia/default_2020-10-20_feae8614-b127-4c1f-8893-4f0a86fef2d4.jpeg);
+    background-size: cover;
+    height: 25rem;
+    width: 99%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 3px black;
+}
+
+#div1 p{
+    font-size: 20px;
+    margin-left: 65px;
+    text-align: left;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+#div2 {
+    background-image: url(noticia/Claudio.jfif);
+    background-size: cover;
+    height: 25rem;
+    width: 99%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+#div3 {
+    background-image: url(noticia/Tecno.jpg);
+    background-size: cover;
+    height: 15rem;
+    width: 30%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#div4 {
+    background-image: url(noticia/04-ultrassom.jpg);
+    background-size: cover;
+    height: 15rem;
+    width: 30%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#div5 {
+    background-image: url(noticia/Damares.jfif);
+    background-size: cover;
+    height: 15rem;
+    width: 30%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#div6 {
+    background-image: url(noticia/biblia.jfif);
+    background-size: cover;
+    height: 20rem;
+    width: 80%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#div7 {
+    background-image: url(noticia/Pastor.jfif);
+    background-size: cover;
+    height: 15rem;
+    width: 30%;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+#ContB {
+    width: 50%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px;
+}
+
+#div1 button{
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 5px;
+    color: white;
+    width: 15%;
+    border: 0;
+    border: gray 1.5px solid;
+    cursor: pointer;
+}
+
+#div7 {
+    height: 10rem;
+    width: 22%;
+}
+
+#div2, #div6 {
+    align-items: flex-end;
+    align-self: center;
+    height: 18rem;
+    width: 50%;
+}
+
+.Banner2 {
+    width: 100%;
+    height: 35rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner2 .container {
+    width: 90%;
+    height: 22rem;
+}
+
+.QuemSomos {
+    width: 70%;
+    height: 14rem;
+    text-align: center;
+    margin-right: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+}
+
+.QuemSomos span{
+    color: blue;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.ImgQuemSomos {
+    width: 28%;
+    height: 18rem;
+    background-image: url(img_icon/grupo.jfif);
+    background-size: cover;
+}
+
+.Banner3 {
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner3 .container {
+    width: 90%;
+    height: 22rem;
+
+}
+
+.HistJesus {
+    width: 70%;
+    height: 14rem;
+    text-align: center;
+    margin-right: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.HistJesus span{
+    color: blue;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.ImgJesus {
+    width: 25%;
+    height: 18rem;
+    background-image: url(img_icon/Cruz2.png);
+    background-size: cover;
+}
+
+.Banner4 {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner4 .container {
+    width: 80%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Recomendacao {
+    font-family: 'Comfortaa', cursive;
+    color: blue;
+    font-size: 3rem;
+    margin: 40px 0px 20px 0px;
+}
+
+.ImgFilmSeries {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.Radio{
+    display: block;
+    
+}
+
+.Radio button{
+    color: white;
+    border: 0px;
+    padding: 10px 8px;
+    margin: 10px 5px 5px 5px;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    transition: 0.3s;
+}
+
+.Radio button:hover{
+
+    transform: scale(1.3);
+    box-shadow: 1px 1px 4px black;
+
+}
+
+.IMGs {
+    height: 42rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImgUm {
+    height: 40rem;
+    width: 80%;
+    background-image: url(img_icon/TheChosen.jfif);
+    background-size: cover;
+    display: block;
+}
+
+.ImgDois {
+    height: 40rem;
+    width: 80%;
+    background-image: url(img_icon/aCabana.jfif);
+    background-size: cover;
+    display: none;
+}
+
+.ImgTres {
+    height: 40rem;
+    width: 80%;
+    background-image: url(img_icon/Superacao.jpg);
+    background-size: cover;
+    display: none;
+}
+
+.ImgQuatro {
+    height: 40rem;
+    width: 80%;
+    background-image: url(img_icon/Gigante.jfif);
+    background-size: cover;
+    display: none;
+}
+
+.ImgCinco {
+    height: 40rem;
+    width: 80%;
+    background-image: url(img_icon/DeusNaoestamorto.jfif);
+    background-size: cover;
+    display: none;
+}
+
+.Banner5 {
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner5 .container{
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    width: 90%;
+    height: 46rem;
+}
+
+.Content {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Content div{
+    margin-bottom: 30px;
+}
+
+#descTitulo {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+
+}
+
+#desc {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.Banner6 {
+    width: 100%;
+    height: 28rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner6 .container{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 26rem;
+}
+
+.Game {
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+
+}
+
+.GameTitulo {
+    font-size: 35px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.ContentGame {
+    background-color: rgb(8, 12, 37);
+    border-radius: 5px;
+    width: 80%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-weight: bolder;
+}
+
+.ContentGame b{
+    text-align: center;
+}
+
+.inputNome {
+    width: 50%;
+    height: 1.5rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 10px 0px 5px 0px;
+    transition: 0.5s;
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+.inputNome:hover {
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+}
+
+.inputResposta {
+    width: 30%;
+    height: 1.5rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 10px 0px 5px 0px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.inputResposta:hover {
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+}
+
+.ContentGame span{
+    animation-name: piscar;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    text-decoration: solid;
+    margin-bottom: 10px;
+}
+
+.BannerRelogio {
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contadorA {
+    display: none;
+}
+
+.BannerRelogio .container {
+    border-radius: 5px;
+    animation-name: mudarCor;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    width: 80%;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.BannerSegunda {
+    margin-top: 50px;
+    background-color: white;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white,rgb(0, 190, 248));
+}
+
+.BannerSegunda .container{
+    height: 48rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: 1px solid blue;
+    padding-top: 20px;
+}
+
+.TituloHerois {
+    color: blue;
+    font-size: 40px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.Herois {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.Herois div {
+    margin-top: 20px;
+    padding: 10px 0px;
+    height: 30rem;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 0.3px black ;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    transition: 900ms;
+}
+
+.Herois h2{
+    color: white;
+}
+
+.Herois div:hover {
+
+    transform: scale(1.2);
+    width: 40%;
+
+}
+
+#abraao {
+    background-image: url(biblia/abraao.jfif);
+    background-size: cover;
+}
+
+#jaco {
+    background-image: url(biblia/Jaco.jpg);
+    background-size: 500px;
+}
+
+#jose {
+    background-image: url(biblia/jose.jfif);
+    background-size: cover;
+}
+
+#moises {
+    background-image: url(biblia/moises.jfif);
+    background-size: cover;
+}
+
+#josue {
+    background-image: url(biblia/josue.jfif);
+    background-size: cover;
+}
+
+#jesus {
+    background-image: url(biblia/jesus.jfif);
+    background-size: cover;
+}
+
+#pedro {
+    background-image: url(biblia/pedro.jfif);
+    background-size: cover;
+}
+
+#paulo {
+    background-image: url(biblia/paulo.jpg);
+    background-size: cover;
+}
+
+#joao {
+    background-image: url(biblia/joao.jfif);
+    background-size: cover;
+}
+
+.BannerFooter {
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BannerFooter .container {
+    width: 90%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.Footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+ 
+.Footer h2, p {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.Fim {
+    text-align: center;
+    background-color: rgb(0, 0, 85);
+    color: white;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes piscar {
+
+    from {
+       opacity: 0;
+    }
+
+    to {
+       opacity: 2;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+
+    .Banner1, .Banner2, .Banner5 {
+        width: 100%;
+        height: 55rem;
+    }
+
+    .Banner3 {
+        height: 65rem;
+        width: 100%;
+    }
+
+    
+   .BemVindoV{
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.4;
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    height: 55rem;
+    overflow: hidden;
+    
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+   .video {
+    width: 100%;
+    background-size: cover;
+    display: none;
+    
+   }
+
+
+    .video {
+        width: 100%;
+        background-size: cover;
+        
+    }
+
+    .Banner4 {
+        height: 10rem;
+        justify-content: space-around;
+    }
+
+    .BemVindo, .InfoBemVindo, .QuemSomos, .HistJesus, .Recomendacao {
+        font-size: 15px;
+    }
+
+
+    .IMGH {
+        display: none;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+    #desc{
+        font-size: 10px;
+    }
+
+    .IMGs {
+        margin-bottom: -200px;
+    }
+
+    .ImgUm, .ImgDois, .ImgTres, .ImgQuatro, .ImgCinco {
+        height: 10rem;
+        width: 100%;
+    }
+
+    .Radio {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 0px;
+    }
+
+    #ContB {
+        border: 0px;
+    }
+
+    .Banner4, .container {
+        border: 0px;
+    }
+
+    #ImgFilmSeries1 {
+        border: 0px;
+    }
+
+    .Recomendacao {
+        margin-top: 200px;
+        margin-bottom: 80px;
+    }
+
+    .Radio button {
+        width: 30%;
+        margin: 5px 15px;
+    }
+
+    .BtnBemVindo {
+        width: 90%;
+    }
+
+    .ImgJesus {
+        width: 100%;
+    }
+
+    .QuemSomos {
+        width: 100%;
+    }
+
+    .GameTitulo {
+        font-size: 15px;
+    }
+
+    .inputNome {
+        width: 90%;
+        
+    }
+
+    .ContentGame b{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Banner2 .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .ImgQuemSomos {
+        width: 100%;
+    }
+
+    .Banner3 .container{
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .ImgJesus {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .BannerFooter {
+        width: 100%;
+        height: 15rem;
+        background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Footer h2, p {
+        color: white;
+        font-size: 10px;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .Footer {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;  
+    }
+
+    .ConteudoN div {
+        border: 2px solid black;
+        height: 10rem;
+        width: 30%;
+        margin: 15px 0px;
+    }
+
+    #div2, #div6 {
+        align-items: flex-end;
+        align-self: center;
+        font-size: 13px;
+        border: 0px;
+        height: 15rem;
+        width: 100%;
+    }
+
+    #div7, #div3, #div4, #div5 {
+        font-size: 13px;
+        border: 0px;
+        height: 15rem;
+        width: 100%;
+    }
+
+    #div1 {
+        display: none;
+    }
+
+    .BannerNoticias {
+        height: 110rem;
+    }
+
+    .BannerNoticias .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 109rem;
+        width: 99%;
+    }
+
+    .ConteudoN {
+        height: 100rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .BannerSegunda {
+        margin-top: 50px;
+        background-color: white;
+        height: 150rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .BannerSegunda .container{
+        height: 145rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+        border: 0px;
+    }
+
+    .Herois {
+        height: 15rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .Herois div {
+        margin-top: 20px;
+        padding: 10px 0px;
+        height: 30rem;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bolder;
+        color: white;
+        text-shadow: 1px 0.3px black ;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        transition: 900ms;
+    }
+
+    .Herois div:hover {
+
+        transform: scale(1.2);
+        height: 120rem;
+        width: 90%;
+    
+    }
+
+    .TituloHerois {
+        color: blue;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: -160px;
+        font-family: 'Comfortaa', cursive;
+        
+    }
+
+}
+
+
+
