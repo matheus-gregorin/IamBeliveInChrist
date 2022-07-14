@@ -1,4 +1,43 @@
 
+contadorPassar = 0
+
+function ContPassar() {
+
+        contadorPassar++
+        console.log(`Aqui ${contadorPassar}`);
+}
+
+
+function passar() {
+
+        setInterval(() => {
+           ContPassar()     
+        }, 5000);
+
+        console.log("Passei e somei");
+
+        console.log(`Valor do ${contadorPassar}`);
+
+
+        if (contadorPassar == 50) {
+
+        contadorPassar = 0
+
+        } else if (contadorPassar >= 10) {
+
+        // frame.style.transform = `translateX(-200px)`;
+        console.log("Passei");
+
+        } else if (contadorPassar >=2 && contadorPassar < 10){
+
+        document.querySelector("#frame, #frame, #frame, #frame").style.transform = "translateX(-300px)";
+
+        console.log("Olha eu aqui");
+
+        }
+}
+
+
 function mexerUm() {
         div1.style.background = "url(noticia/default_2020-10-20_feae8614-b127-4c1f-8893-4f0a86fef2d4.jpeg)";
         textAparecer.innerHTML = `Funcionaria do MacDonalds relata que <br> "Deus tem tocado o Coração das Pessoas". <br> Ela tem orado pelas pessoas que passam pelo estabelecimento <br> do MacDonalds...

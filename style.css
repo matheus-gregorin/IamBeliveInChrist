@@ -862,7 +862,12 @@ a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     color: gold;
+    overflow: hidden;
     font-family: 'Comfortaa', cursive;
+}
+
+.Hub h2{
+    cursor: pointer;
 }
 
 .Hub span {
@@ -880,11 +885,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    overflow-x: hidden;
+    transition: 2s;
 }
 
 .Hub div iframe{
     transition: 1s;
     border: 2px solid white;
+    transition: 1s;
 }
 
 .Hub div iframe:hover {
