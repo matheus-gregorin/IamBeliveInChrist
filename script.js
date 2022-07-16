@@ -1,41 +1,228 @@
 
 contadorPassar = 0
 
-function ContPassar() {
+function voltar() {
 
-        contadorPassar++
-        console.log(`Aqui ${contadorPassar}`);
+
+        if (contadorPassar >= 3 ){
+
+        document.querySelector("#divHub").style.transform = "translateX(-35%)";
+        contadorPassar = 2;
+
+        } else if (contadorPassar == 2) {
+                
+        document.querySelector("#divHub").style.transform = "translateX(-15%)";
+        contadorPassar = 1;
+
+        } else if (contadorPassar == 1){
+        
+        document.querySelector("#divHub").style.transform = "translateX(0%)";
+        contadorPassar = 0;
+
+        }
+
 }
-
 
 function passar() {
 
-        setInterval(() => {
-           ContPassar()     
-        }, 5000);
+        contadorPassar++
 
-        console.log("Passei e somei");
+        if (contadorPassar == 1 ){
 
-        console.log(`Valor do ${contadorPassar}`);
+        document.querySelector("#divHub").style.transform = "translateX(-15%)";
 
+        } else if (contadorPassar == 2) {
+                
+        document.querySelector("#divHub").style.transform = "translateX(-35%)";
 
-        if (contadorPassar == 50) {
-
-        contadorPassar = 0
-
-        } else if (contadorPassar >= 10) {
-
-        // frame.style.transform = `translateX(-200px)`;
-        console.log("Passei");
-
-        } else if (contadorPassar >=2 && contadorPassar < 10){
-
-        document.querySelector("#frame, #frame, #frame, #frame").style.transform = "translateX(-300px)";
-
-        console.log("Olha eu aqui");
+        } else if (contadorPassar == 3){
+        
+        document.querySelector("#divHub").style.transform = "translateX(-50%)";
 
         }
 }
+
+
+contadorPassarInt = 0
+
+function voltarInt() {
+
+
+        if (contadorPassarInt >= 3 ){
+
+        document.querySelector("#divInt").style.transform = "translateX(-35%)";
+        contadorPassarInt = 2;
+
+        } else if (contadorPassarInt == 2) {
+                
+        document.querySelector("#divInt").style.transform = "translateX(-15%)";
+        contadorPassarInt = 1;
+
+        } else if (contadorPassarInt == 1){
+        
+        document.querySelector("#divInt").style.transform = "translateX(0%)";
+        contadorPassarInt = 0;
+
+        }
+
+}
+
+function passarInt() {
+
+        contadorPassarInt++
+
+        if (contadorPassarInt == 1 ){
+
+        document.querySelector("#divInt").style.transform = "translateX(-15%)";
+
+        } else if (contadorPassarInt == 2) {
+                
+        document.querySelector("#divInt").style.transform = "translateX(-35%)";
+
+        } else if (contadorPassarInt == 3){
+        
+        document.querySelector("#divInt").style.transform = "translateX(-50%)";
+
+        }
+}
+
+
+
+contadorPassarCopy = 0
+
+function voltarCopy() {
+
+
+        if (contadorPassarCopy >= 3 ){
+
+        document.querySelector("#divCopy").style.transform = "translateX(-35%)";
+        contadorPassarCopy = 2;
+
+        } else if (contadorPassarCopy == 2) {
+                
+        document.querySelector("#divCopy").style.transform = "translateX(-15%)";
+        contadorPassarCopy = 1;
+
+        } else if (contadorPassarCopy == 1){
+        
+        document.querySelector("#divCopy").style.transform = "translateX(0%)";
+        contadorPassarCopy = 0;
+
+        }
+
+}
+
+function passarCopy() {
+
+        contadorPassarCopy++
+
+        if (contadorPassarCopy == 1 ){
+
+        document.querySelector("#divCopy").style.transform = "translateX(-15%)";
+
+        } else if (contadorPassarCopy == 2) {
+                
+        document.querySelector("#divCopy").style.transform = "translateX(-35%)";
+
+        } else if (contadorPassarCopy == 3){
+        
+        document.querySelector("#divCopy").style.transform = "translateX(-50%)";
+
+        }
+}
+
+
+
+
+contadorPassarPosi = 0
+
+function voltarPosi() {
+
+
+        if (contadorPassarPosi >= 3 ){
+
+        document.querySelector("#divPosi").style.transform = "translateX(-35%)";
+        contadorPassarPosi = 2;
+
+        } else if (contadorPassarPosi == 2) {
+                
+        document.querySelector("#divPosi").style.transform = "translateX(-15%)";
+        contadorPassarPosi = 1;
+
+        } else if (contadorPassarPosi == 1){
+        
+        document.querySelector("#divPosi").style.transform = "translateX(0%)";
+        contadorPassarPosi = 0;
+
+        }
+
+}
+
+function passarPosi() {
+
+        contadorPassarPosi++
+
+        if (contadorPassarPosi == 1 ){
+
+        document.querySelector("#divPosi").style.transform = "translateX(-15%)";
+
+        } else if (contadorPassarPosi == 2) {
+                
+        document.querySelector("#divPosi").style.transform = "translateX(-35%)";
+
+        } else if (contadorPassarPosi == 3){
+        
+        document.querySelector("#divPosi").style.transform = "translateX(-50%)";
+
+        }
+}
+
+
+
+
+contadorPassarFlow = 0
+
+function voltarFlow() {
+
+
+        if (contadorPassarFlow >= 3 ){
+
+        document.querySelector("#divFlow").style.transform = "translateX(-35%)";
+        contadorPassarFlow = 2;
+
+        } else if (contadorPassarFlow == 2) {
+                
+        document.querySelector("#divFlow").style.transform = "translateX(-15%)";
+        contadorPassarFlow = 1;
+
+        } else if (contadorPassarFlow == 1){
+        
+        document.querySelector("#divFlow").style.transform = "translateX(0%)";
+        contadorPassarFlow = 0;
+
+        }
+
+}
+
+function passarFlow() {
+
+        contadorPassarFlow++
+
+        if (contadorPassarFlow == 1 ){
+
+        document.querySelector("#divFlow").style.transform = "translateX(-15%)";
+
+        } else if (contadorPassarFlow == 2) {
+                
+        document.querySelector("#divFlow").style.transform = "translateX(-35%)";
+
+        } else if (contadorPassarFlow == 3){
+        
+        document.querySelector("#divFlow").style.transform = "translateX(-50%)";
+
+        }
+}
+
 
 
 function mexerUm() {

@@ -183,7 +183,7 @@ a:hover {
 }
 
 .BannerNoticias {
-    background-color: white;
+    background: linear-gradient(to bottom, rgb(41, 41, 209), white);
     height: 100rem;
     width: 100%;
     display: flex;
@@ -211,14 +211,14 @@ a:hover {
     height: 3rem;
     width: 90%;
     font-size: 40px;
-    color: blue;
+    color: white;
     font-family: 'Comfortaa', cursive;
     font-weight: bolder;
 }
 
 .ConteudoN {
     height: 89rem;
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +239,7 @@ a:hover {
     background-image: url(noticia/default_2020-10-20_feae8614-b127-4c1f-8893-4f0a86fef2d4.jpeg);
     background-size: cover;
     height: 25rem;
-    width: 99%;
+    width: 90%;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
@@ -821,7 +821,7 @@ a:hover {
 }
 
 .BannerPodcast {
-    height: 120rem;
+    height: 140rem;
     width: 100%;
     background-color: white;
     display: flex;
@@ -831,11 +831,12 @@ a:hover {
 
 .BannerPodcast .container{
     background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
-    height: 115rem;
+    height: 132rem;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 8px;
 }
 
 .TituloPodcast {
@@ -845,17 +846,40 @@ a:hover {
 }
 
 .ConteudoPodcast {
-    height: 105rem;
+    height: 120rem;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#divHub {
+    background-color: black;
+    width: 180%;
+}
+
+#divInt {
+    background-color: black;
+    width: 180%;
+}
+
+#divCopy {
+    background-color: black;
+    width: 180%;
+}
+
+#divPosi {
+    background-color: black;
+    width: 180%;
+}
+
+#divFlow {
+    background-color: black;
+    width: 180%;
+}
+
 .Hub {
-    border: 1px solid red;
-    height: 104rem;
+    height: 118rem;
     width: 98%;
     text-align: center;
     display: flex;
@@ -865,20 +889,51 @@ a:hover {
     overflow: hidden;
     font-family: 'Comfortaa', cursive;
 }
-
-.Hub h2{
+.Hub button {
+    width: 10%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
     cursor: pointer;
+    transition: 0.5s;
 }
 
+.Hub button:hover {
+
+    transform: scale(0.95);
+
+}
+
+.Hub .CompButton {
+    width: 100%;
+    height: 3rem;
+}
+
+.Hub h2{
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+
 .Hub span {
-    font-size: 15px;
+    font-size: 10px;
+    color: white;
+}
+
+.Hub p{
+    font-size: 10px;
+    color: white;
+    display: none;
 }
 
 .Hub div{
-    border: 1px solid black;
     color: white;
     font-family: 'Comfortaa', cursive;
-    height: 14rem;
+    height: 15rem;
     width: 99%;
     margin-bottom: 10px;
     display: flex;
@@ -891,13 +946,11 @@ a:hover {
 
 .Hub div iframe{
     transition: 1s;
-    border: 2px solid white;
     transition: 1s;
 }
 
 .Hub div iframe:hover {
     transform: scale(1.1);
-    border: 2px solid blue;
     box-shadow: 4px 1px 8px black;
 }
 
@@ -1256,6 +1309,144 @@ a:hover {
         font-family: 'Comfortaa', cursive;
         
     }
+
+
+    
+.BannerPodcast {
+    height: 140rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BannerPodcast .container{
+    background: linear-gradient(to bottom, rgba(58, 58, 211, 0.842), rgb(0, 190, 248));
+    height: 132rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 8px;
+}
+
+.TituloPodcast {
+    color: white;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.ConteudoPodcast {
+    height: 120rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divHub {
+    background-color: black;
+    width: 450%;
+}
+
+#divInt {
+    background-color: black;
+    width: 450%;
+}
+
+#divCopy {
+    background-color: black;
+    width: 450%;
+}
+
+#divPosi {
+    background-color: black;
+    width: 450%;
+}
+
+#divFlow {
+    background-color: black;
+    width: 450%;
+}
+
+.Hub {
+    height: 118rem;
+    width: 98%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: gold;
+    overflow: hidden;
+    font-family: 'Comfortaa', cursive;
+}
+.Hub button {
+    width: 40%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 8px;
+}
+
+.Hub button:hover {
+
+    transform: scale(0.95);
+
+}
+
+.Hub .CompButton {
+    width: 100%;
+    height: 3rem;
+}
+
+.Hub h2{
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+    text-align: center;
+}
+
+
+.Hub span {
+    font-size: 10px;
+    color: white;
+}
+
+.Hub p{
+    font-size: 10px;
+    color: white;
+    display: block;
+}
+
+.Hub div{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    height: 15rem;
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+    transition: 2s;
+}
+
+.Hub div iframe{
+    transition: 1s;
+    transition: 1s;
+}
+
+.Hub div iframe:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 1px 8px black;
+}
 
 }
 

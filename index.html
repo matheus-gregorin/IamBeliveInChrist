@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <script src="script.js"></script>
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
@@ -25,7 +24,7 @@
 
     <!-- NAVBAR -->
 
-    <div class="header">
+    <div class="header"  >
         <div class="container">
             <div class="navBar">
                 <div> <img class="IMGH" style="width:110%; height:65px;" src="img_icon/iconHeader.png" onclick=""> </div>
@@ -273,29 +272,91 @@
 
          <div class="ConteudoPodcast">
 
-           <div class="Hub">  
+           <div class="Hub" >  
 
-            <h2 onload="passar()"> HUB </h2>
-            <div id="divHub"> <iframe width="340" height="210" src="https://www.youtube.com/embed/yYinXRYSOB8" title="ISRAEL TARGINO | HUB Podcast - EP 115" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2> HUB <p> Vire a tela do celular para melhor experiência </p> </h2>
+            <div id="divHub"> 
+                  <iframe width="340" height="210" src="https://www.youtube.com/embed/yYinXRYSOB8" title="ISRAEL TARGINO | HUB Podcast - EP 115" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <iframe id="frame" width="340" height="210" src="https://www.youtube.com/embed/R4I9ZlYTAH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <iframe id="frame" width="340" height="210" src="https://www.youtube.com/embed/mCpTbjVuH84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <iframe id="frame" width="340" height="210" src="https://www.youtube.com/embed/mCpTbjVuH84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <iframe id="frame" width="340" height="210" src="https://www.youtube.com/embed/mCpTbjVuH84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="340" height="210" src="https://www.youtube.com/embed/EE8ngWp1tW8" title="RAFAEL BICUDO | HUB Podcast - EP 112" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="340" height="210" src="https://www.youtube.com/embed/K19JXhNs3QE" title="ALEXANDRE CANHONI | HUB Podcast - EP 111" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <span> <a href="https://www.youtube.com/channel/UC_q-r5OHf2cVoIzoDoBhunQ" target="_blank"> Para mais do HUB clique aqui </a> </span>
 
-            <h2>INTELIGENCIA LTDA</h2>
-            <div>Conteudo</div>
+            <span> <a href="https://www.youtube.com/channel/UC_q-r5OHf2cVoIzoDoBhunQ" target="_blank"> Clique Aqui para ir ao YouTube </a> </span>
+             
+            <div class="CompButton">
+            <button onclick="voltar()"> Voltar </button>
+            <button onclick="passar()" > Passar </button>
+            </div>
 
-            <h2>JESUS COPY</h2>
-            <div>Conteudo</div>
+
+            <h2> FLOW <p> Vire a tela do celular para melhor experiência </p> </h2>
+            <div id="divFlow">
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/Y1Ok39BVUPk" title="DEIVE LEONARDO - Flow Podcast #484" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/ZinRvgd5Bkc" title="RODRIGO SILVA - Flow Podcast #404" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/Z5pBtfjQWOI" title="NIKOLAS FERREIRA - Flow Podcast #514" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/v6aGGwdmdhk" title="KLEBER LUCAS - Flow Podcast #304" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/K9MpoKT3-5Y" title="YAGO MARTINS - Flow Podcast #291" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <span> <a href="https://www.youtube.com/c/FlowPodcast" target="_blank"> Clique Aqui para ir ao YouTube </a> </span>
+
+            <div class="CompButton">
+                <button onclick="voltarFlow()"> Voltar </button>
+                <button onclick="passarFlow()" > Passar </button>
+                </div>
+
+
+            <h2> INTELIGENCIA LTDA <p> Vire a tela do celular para melhor experiência </p> </h2>
+            <div id="divInt">
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/bFyHeV-LMIY" title="AP. RINA (BOLA DE NEVE CHURCH) - Inteligência Ltda. Podcast #103" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/f_SpWbVKTyA" title="DEBATE : DEUS EXISTE? - YAGO MARTINS, ROLANDINHO E JOEL PINHEIRO - Inteligência Ltda. Podcast #387" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/HFGqXmTAvuI" title="PASTOR RODRIGO SILVA, RABINO SANY E PADRE JOÃOZINHO - Inteligência Ltda. Podcast #283" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/OxgzVEPr7dE" title="RODRIGO SILVA ARQUEOLOGIA - Inteligência Ltda. Podcast #161" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/5_HcC6AoiqY" title="LAMARTINE POSELLA - Inteligência Ltda. Podcast #405" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <span> <a href="https://www.youtube.com/c/Intelig%C3%AAnciaLtda" target="_blank"> Clique Aqui para ir ao YouTube </a> </span>
+
+            <div class="CompButton">
+                <button onclick="voltarInt()"> Voltar </button>
+                <button onclick="passarInt()" > Passar </button>
+                </div>
+
+            <h2> JESUS COPY <p> Vire a tela do celular para melhor experiência </p> </h2>
+            <div id="divCopy">
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/bXO1zvMkm_s" title="RODOLFO ABRANTES - JesusCopy Podcast #92" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/bbeYYpz18mU" title="LUCIANO SUBIRÁ - JesusCopy Podcast #62" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/305O_J7yb1g" title="ISRAEL SUBIRÁ - JesusCopy Podcast #73" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/ko4A6b70FKs" title="LUCAS & JACKELINE HAYASHI - JesusCopy Podcast #49" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/-wbHo-_CDOM" title="THIAGO NIGRO (Primo Rico) - Podcast #85" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <span> <a href="https://www.youtube.com/user/thejesuscopy" target="_blank"> Clique Aqui para ir ao YouTube </a> </span>
+
+            <div class="CompButton">
+                <button onclick="voltarCopy()"> Voltar </button>
+                <button onclick="passarCopy()" > Passar </button>
+                </div>
 
             
-            <h2>POSITIVAMENTE</h2>
-            <div>Conteudo</div>
+            <h2> POSITIVAMENTE <p> Vire a tela do celular para melhor experiência </p> </h2>
+            <div id="divPosi">
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/60Cxnjs_wWU" title="ANDRÉ FERNANDES FALA SOBRE SUA TRANSFORMAÇÃO EM CRISTO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/wXQjWp06Lr8" title="CONFORTO OU CONFRONTO? COM SEZAR CAVALCANTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/rWCgCcWykkg" title="BIANCA TOLEDO DETALHA O FIM DE SEU CASAMENTO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/f8S1qK8k11w" title="QUEBRANDO MALDIÇÕES! COM VIRGÍNIA ARRUDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="340" height="210" src="https://www.youtube.com/embed/5prX_NMyOXA" title="POSITIVAMENTE COM HERNANDES DIAS LOPES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
-            <h2>FLOW</h2>
-            <div>Conteudo</div>
+            <span> <a href="https://www.youtube.com/c/PositivamentePodcast" target="_blank"> Clique Aqui para ir ao YouTube </a> </span>
+
+            <div class="CompButton">
+                <button onclick="voltarPosi()"> Voltar </button>
+                <button onclick="passarPosi()" > Passar </button>
+                </div>
+
 
            </div>
 
@@ -351,4 +412,7 @@
 
     
 </body>
+
+<script src="script.js"></script>
+
 </html>
